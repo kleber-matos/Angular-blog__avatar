@@ -1,0 +1,9 @@
+.small-card__photo img {
+    width: 100%;
+}
+
+.container__small-card {
+    width: 250px;
+    margin-top: 1rem;
+    margin: 37px;
+}
