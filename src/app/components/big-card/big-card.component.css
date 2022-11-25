@@ -18,3 +18,29 @@
 .big-card__description p{
     color: gray;
 }
+
+
+	
+@media screen and (max-width: 480px) {
+
+    .big-card__photo img {
+        width: 140px;
+        height: 100px;
+        display: flex;
+    }
+
+    h2 {
+        font-size: .7rem;
+    }
+
+    .big-card__description p{
+        color: gray;
+        font-size: .5rem
+    }
+
+    .container__big-card {
+        display: flex;
+        width: 300px;
+        justify-content: center;
+    }
+}

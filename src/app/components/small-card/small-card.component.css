@@ -7,3 +7,22 @@
     margin-top: 1rem;
     margin: 37px;
 }
+
+@media screen and (max-width: 480px) {
+    .container__small-card  {
+        width: 100px;
+        margin: .3rem;
+        margin-top: 2rem;
+    }
+    .small-card__photo img {
+        width: 100%;
+    }
+
+    .small-card__title {
+        font-size: 0.5rem;
+    }
+
+    .small-card__descripition p {
+        font-size: 0.5rem;
+    }
+}

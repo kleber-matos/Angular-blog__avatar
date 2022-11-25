@@ -20,3 +20,15 @@
     margin-right: 1rem;
     cursor: pointer;
 }
+
+@media screen and (max-width: 480px) {
+
+    .container__menu-bar {
+        display: flex;
+        min-width: 0px;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: center;
+      }
+
+ }
