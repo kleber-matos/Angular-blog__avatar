@@ -1,4 +1,7 @@
 
 # MyBlog Avatar
 
-![2022-11-26](https://user-images.githubusercontent.com/94052079/204096494-fabe7524-c2a1-46a9-b079-46edf7de758d.png)
+##Um pouco de como ficou
+
+![2022-11-26](https://user-images.githubusercontent.com/94052079/204096636-ccdd69f0-a2f5-4bc1-8359-95cb5e8dc11e.png)
+
