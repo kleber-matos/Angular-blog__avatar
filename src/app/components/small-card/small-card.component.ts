@@ -12,4 +12,14 @@ export class SmallCardComponent {
   title: string= ''
   @Input()
   description: string= ''
+
+
+  verfilme(){
+
+    alert( 
+    `${this.title}\n${this.description}`
+    )
+    
+  }
+
 }

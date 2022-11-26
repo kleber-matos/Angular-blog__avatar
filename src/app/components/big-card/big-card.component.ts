@@ -13,4 +13,9 @@ export class BigCardComponent {
   titleCard: string= ''
   @Input()
   cardDescription: string= ''
+
+
+  verfilme(){
+    alert(this.titleCard)
+  }
 }
