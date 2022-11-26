@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-menu-bar',
@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./menu-bar.component.css']
 })
 export class MenuBarComponent {
-
+@Input()
+home: string= ''
+@Input()
+service: string= ''
+@Input()
+contato: string = ''
 }
