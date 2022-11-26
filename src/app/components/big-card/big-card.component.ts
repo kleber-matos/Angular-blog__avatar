@@ -20,6 +20,7 @@ export class BigCardComponent {
     Séries de filmes: Avatar\n
     Orçamento: 250 milhões USD\n
     Música composta por: Simon Franglen\n
-    Autores: James Cameron, Josh Friedman, Shane Salerno, Amanda Silver, Rick Jaffa`)
+    Autores: James Cameron, Josh Friedman, Shane Salerno,\n
+     Amanda  Silver, Rick Jaffa`)
   }
 }
