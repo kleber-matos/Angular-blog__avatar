@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class RodapeComponent {
 
+  rodape(){
+    alert(`Feito por kleber`)
+  }
+
 }
