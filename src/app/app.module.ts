@@ -10,6 +10,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { TitleComponent } from './components/title/title.component';
 import { RodapeComponent } from './components/rodape/rodape.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +19,7 @@ import { RodapeComponent } from './components/rodape/rodape.component';
     SmallCardComponent,
     HomeComponent,
     TitleComponent,
-    RodapeComponent
+    RodapeComponent 
   ],
   imports: [
     BrowserModule,
