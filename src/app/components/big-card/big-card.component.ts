@@ -16,6 +16,6 @@ export class BigCardComponent {
 
 
   verfilme(){
-    alert(this.titleCard)
+    alert(`Avatar: O Caminho da Água 2022 ‧ Ficção científica/Ação ‧ 3h 10m\n \nApós formar uma família, Jake Sully e Ney'tiri fazem de tudo para ficarem juntos. No entanto, eles devem sair de casa e explorar as regiões de Pandora quando uma antiga ameaça ressurge, e Jake deve travar uma guerra difícil contra os humanos.`)
   }
 }
