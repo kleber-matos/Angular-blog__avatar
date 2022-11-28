@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class HomeComponent {
 
   text: string = ''
-  num: number = 1;
+  num: number = 0;
 
 
   
