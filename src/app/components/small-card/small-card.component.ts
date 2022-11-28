@@ -13,8 +13,7 @@ export class SmallCardComponent {
   @Input()
   description: string= ''
 
-
-  github: string= 'https://github.com/kleber-matos/Angular-blog__avatar'
+/**  github: string= 'https://github.com/kleber-matos/Angular-blog__avatar'
 
   
   texto:String = "Veja o GitHub do projeto: \n" + this.github;
@@ -26,6 +25,6 @@ export class SmallCardComponent {
     `${this.title}\n${this.description}`
     )
     confirm(`Não esqueça de ver no github\n${this.github}`)
-  }
+  } */
 
 }

@@ -1,12 +1,18 @@
 <div class="container__content">
-    <div class="content__cover">
-        <img src="" alt="img">
+    <div class="card">
+        <div class="content__cover">
+            <img src="{{photo}}" alt="img">
+        </div>
+        <div class="text">
+            <div class="content__title">
+                <h1>{{title}}</h1>
+            </div>
+            <div class="content__descripition">
+                <p>{{description}}</p>
+            </div>
+        </div>
+
     </div>
-    <div class="content__title">
-        <h1>Meu Artigo</h1>
-    </div>
-    <div class="content__descripition">
-        <p>Ola mundo!</p>
-    </div>
-    <a [routerLink]="['']" ><<< voltar</a>
 </div>
+<a class="voltar" [routerLink]="['']">
+    <<< voltar</a>
