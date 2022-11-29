@@ -8,10 +8,17 @@ import { Component, Input } from '@angular/core';
 export class SmallCardComponent {
   @Input()
   photo: string= ''
+
   @Input()
   title: string= ''
+
   @Input()
   description: string= ''
+
+  @Input()
+  Id: string = '0'
+
+
 
 /**  github: string= 'https://github.com/kleber-matos/Angular-blog__avatar'
 

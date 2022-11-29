@@ -12,6 +12,7 @@ import { RodapeComponent } from './components/rodape/rodape.component';
 import { ContentComponent } from './pages/content/content.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
