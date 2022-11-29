@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import{ dataFake } from '../../data/dataFake'
 
 @Component({
   selector: 'app-content',
@@ -7,9 +8,12 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./content.component.css']
 })
 export class ContentComponent implements OnInit{
-  photo: string = 'https://midias.correiobraziliense.com.br/_midias/jpg/2022/04/28/675x450/1_avatar_2_the_way_of_water_750x422-7860855.jpg?20220428103146?20220428103146'
-  title: string = 'title'
-  description: string = `descripition!`
+  /** */
+  photo: string = ''
+  title: string = ''
+  description: string = ``
+
+  private id: string | null = "0"
 
   constructor(
     private route:ActivatedRoute
@@ -17,7 +21,20 @@ export class ContentComponent implements OnInit{
   
     ngOnInit() {
       this.route.paramMap.subscribe( value =>
-        console.log(value)
+       this.id = value.get("id")
+        
       )
+      this.setValuesToComponent(this.id)
     }
+ 
+
+
+    setValuesToComponent(id:string | null){
+      const result = dataFake.filter(article => article.id ==id)[0]
+      
+      this.title = result.title
+      this.description = result.description
+      this.photo = result.photo      
+    }
+
 }
