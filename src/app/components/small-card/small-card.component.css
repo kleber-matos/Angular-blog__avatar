@@ -3,8 +3,11 @@
     min-height: 200px;
 }
 
+
+
 .container__small-card {
     width: 250px;
+    min-height: 500px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     margin-top: 1rem;
     margin: 37px;

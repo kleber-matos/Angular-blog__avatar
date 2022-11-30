@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
 
@@ -8,5 +8,7 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./service.component.css']
 })
 export class ServiceComponent {
+
+
 
 }

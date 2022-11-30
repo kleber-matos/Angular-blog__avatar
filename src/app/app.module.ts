@@ -10,7 +10,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { TitleComponent } from './components/title/title.component';
 import { RodapeComponent } from './components/rodape/rodape.component';
 import { ContentComponent } from './pages/content/content.component';
-import { ServiceComponent } from './pages/service/service.component';
+import { ServiceComponent } from './pages/news/service.component';
 
 
 

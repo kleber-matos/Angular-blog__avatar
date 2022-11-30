@@ -1,0 +1,23 @@
+.container__service {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.title__service {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.rodape {
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+
+}
