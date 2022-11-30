@@ -1,11 +1,12 @@
 export const dataFake = [
 {
     "id": "1",
-    "photo": "https://midias.correiobraziliense.com.br/_midias/jpg/2022/04/28/675x450/1_avatar_2_the_way_of_water_750x422-7860855.jpg?20220428103146?20220428103146",
+    "photo": "http://disneyplusbrasil.com.br/wp-content/uploads/2022/08/Avatar.jpg",
 
-    "title": "Saiu novo filme",
+    "title": "Creat web-site with Angular ",
 
-    "description": "ala"
+    "description": `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis quis risus vitae laoreet. Proin
+    vitae pulvinar sapien, ac varius diam. Fusce sed sodales sapien.`
 },
 {
     "id": "2",

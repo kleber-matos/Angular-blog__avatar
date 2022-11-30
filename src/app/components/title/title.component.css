@@ -2,6 +2,7 @@ h1 {
     font-size: 5rem
 }
 
+
 @media screen and (max-width: 480px) {
     h1 {
         font-size: 300%;
