@@ -11,7 +11,7 @@
     background-image: url('https://img.freepik.com/vetores-gratis/fundo-abstrato-com-quadrados_23-2148995948.jpg?w=1380&t=st=1669338274~exp=1669338874~hmac=7d7994b81ae524193f0a7b21c8679d74c57c13d5eb99fbe4c43567ed285cc622');
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
     .small-card__cards {
         display: block;
     }

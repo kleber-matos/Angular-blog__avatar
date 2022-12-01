@@ -11,6 +11,7 @@ import { TitleComponent } from './components/title/title.component';
 import { RodapeComponent } from './components/rodape/rodape.component';
 import { ContentComponent } from './pages/content/content.component';
 import { ServiceComponent } from './pages/news/service.component';
+import { ContatoComponent } from './pages/contato/contato.component';
 
 
 
@@ -24,7 +25,8 @@ import { ServiceComponent } from './pages/news/service.component';
     TitleComponent,
     RodapeComponent,
     ContentComponent,
-    ServiceComponent
+    ServiceComponent,
+    ContatoComponent
   ],
   imports: [
     BrowserModule,

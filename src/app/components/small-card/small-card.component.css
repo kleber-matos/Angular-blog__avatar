@@ -3,6 +3,10 @@
     min-height: 200px;
 }
 
+.center{
+    display: flex;
+    justify-content: center;
+}
 
 
 .container__small-card {
@@ -13,13 +17,14 @@
     margin: 37px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
 
   
     .container__small-card  {
         width: 75%;
         margin: .3rem;
         margin-top: 2rem;
+        min-height: 330px;
     }
     .small-card__photo img {
         width: 100%;
